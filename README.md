@@ -70,16 +70,16 @@ For this project M-audio Keystation Mini 32 MK3 is perfect because it is not exp
 10. Adjust midi device number in harmoniumid.sh file<br>
   nano ./harmoniumid.sh<br>
   midi.alsa.device=hw:2,0<br>
-  give execute permission to your script: chmod +x /home/pi/harmoniumid.sh<br>
+  
+11. Give execute permission to your script: chmod +x /home/pi/harmoniumid.sh<br>
 
-11. Add ./harmoniumid.sh to your ~/bashrc file to start instrument on boot
+12. Add ./harmoniumid.sh to your ~/bashrc file to start instrument on boot
 
-12. Make raspbery pi sd card read-only with raspi-config settings
+13. Make raspbery pi sd card read-only with raspi-config settings
 
-13. Restart and enjoy!
+14. Restart and enjoy!
 
-PS. Loading of the instrument can take up to 1 minute, because of the raspbery pi zero booting time. 
-You can make it load little faster by some tweaks (Edit /boot/config.txt or make custom buildroot image of the linux system). 
+PS. Loading of the instrument can take up to 1 minute, because of the raspbery pi zero booting time. You can make it load little faster by some tweaks (Edit /boot/config.txt or make custom buildroot image of the linux system). 
 
 ### Send your thanks to N'hyra Virakah for a great harmonium recording and programming! 
 https://www.patreon.com/nhyravirakah<br>
